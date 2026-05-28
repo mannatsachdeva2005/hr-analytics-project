@@ -1,0 +1,74 @@
+data = {
+    "EmployeeID": [101,102,103,104,105,106,107,108,109,110],
+    
+    "Name": [
+        "Aman",
+        "Riya",
+        "Karan",
+        "Neha",
+        "Raj",
+        "Simran",
+        "Arjun",
+        "Priya",
+        "Kabir",
+        "Anjali"
+    ],
+    
+    "Department": [
+        "IT",
+        "HR",
+        "Finance",
+        "IT",
+        "Marketing",
+        "HR",
+        "Finance",
+        "IT",
+        np.nan,
+        "Marketing"
+    ],
+    
+    "Age": [22,25,30,28,35,29,31,np.nan,26,27],
+    
+    "Gender": [
+        "M",
+        "F",
+        "M",
+        "F",
+        "M",
+        "F",
+        "M",
+        "F",
+        "M",
+        "F"
+    ],
+    
+    "Salary": [
+        50000,
+        60000,
+        45000,
+        np.nan,
+        70000,
+        52000,
+        48000,
+        75000,
+        62000,
+        np.nan
+    ],
+    
+    "Experience": [1,3,7,5,10,4,6,8,2,3],
+    
+    "City": [
+        "Delhi",
+        "Mumbai",
+        "Delhi",
+        "Pune",
+        "Bangalore",
+        "Mumbai",
+        "Delhi",
+        "Pune",
+        "Delhi",
+        "Bangalore"
+    ]
+}
+
+df = pd.DataFrame(data)
